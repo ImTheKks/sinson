@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: simpson-font;
+    src: url(../fonts/Simpsonfont\ DEMO.otf);
+}
+.title{
+    height: ;
+    background-color: ;
+    padding: 8vh;
+}
+.text{
+    text-align: center;
+    font-family: simpson-font;
+    font-size: 5rem;
+
+}
