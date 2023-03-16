@@ -1,16 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>LosSimpson</title>
     <link href="Css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Css/style.css">
   </head>
   <body>
-    <div>
+    <div class="ola">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid menu">
               <img src="images/The_logo_simpsons_yellow.png" alt="" width="80px" height="50px">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,14 +21,14 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Autor</a>
+                    <a class="nav-link" href="https://es.wikipedia.org/wiki/Matt_Groening#:~:text=Matt%20Groening%20(Portland%2C%2015%20de,el%20creador%20de%20Los%20Simpson.">Autor</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Personajes
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Homero</a></li>
+                      <li><a class="dropdown-item" href="#homero">Homero</a></li>
                       <li><a class="dropdown-item" href="#">Marge</a></li>
                       <li><hr class="dropdown-divider"></li>
                       <li><a class="dropdown-item" href="#">Bart y Lisa </a></li>
@@ -74,20 +74,32 @@
             </button>
           </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 title">
-                <h1 class="text">¿QUIENES SON?</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <img src="images/homer.png" alt="" height="600" width="600">
-            </div>
-            <div class="col-6">
-                <h1>sdasd</h1>
-            </div>
-        </div>
+    <div class="conte">
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-md-12 col-lg-12 title">
+                  <h1 class="col-xs-12 col-md-12 col-lg-12 text">¿QUIENES SON?</h1>
+              </div>
+          </div>
+          <div class="row" id="homero">
+              <div class="col-6 ima">
+                  <img src="images/homer.png" alt="" height="96%" width="96%">
+              </div>
+              <div class="col-6 desc">
+                  <h1 class="titu">Homero</h1>
+                  <p class="des">Homer Jay Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie (Fue creado por el dibujante Matt Groening).</p>
+                  <a href="https://es.wikipedia.org/wiki/Homer_Simpson" class="link">Ver más.</a>
+                    <div class="conv">
+                      <div class="calin">
+                        <iframe width="450" height="240" src="https://www.youtube.com/embed/btfMvd_ts7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                      </div>
+                    </div>
+                    <div class="buton">
+                      <a class="btn btn-primary" href="#marge" role="button">Siguiente</a>
+                    </div>
+              </div>
+          </div>
+      </div>
     </div>
 
 
