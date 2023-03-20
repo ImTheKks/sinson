@@ -4,40 +4,39 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #F8C947;
 }
 .ola{
     background-color: #F8C947;
 }
-.conte{
-    background-color: #F8C947;
+.container{
+    
+    margin-top: 5%;
 }
 @font-face {
     font-family: simpson-font;
     src: url(../fonts/Simpsonfont\ DEMO.otf);
 }
 .title{
-    height: ;
-    
     padding: 12vh;
 }
 .text{
     text-align: center;
     font-family: simpson-font;
-    font-size: 5rem;
+    font-size: 7rem;
     color: white;
     -webkit-text-stroke: 3px black;
 
 }
 .ima{
+display: flex;
+justify-content: center;
     
 }
 .desc{
     
     text-align: justify;
-    font-size: 1.5rem;
-    
-    
-    
+    font-size: 1.5rem; 
 }
 .titu{
     text-align: center;
@@ -70,12 +69,222 @@ body{
     justify-content: center;
 }
 .buton{
+    margin: 5%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 10vh;
+  
 }
 .btn-primary{
     background-color: white;
     color: black;
+   
+}
+
+#marge{
+    margin-top: 7%;
+}
+.btn{
+    width: 50%;
+    border: solid #1c1b1b;
+    
+}
+#niños{
+    margin-top: 7%;
+
+}
+.tifin{
+    text-align: center;
+    font-size: 7rem;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    font-family: simpson-font;
+    margin-bottom: 2%;
+}
+.imag{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.descr{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1.5rem; 
+}
+.linea {
+    border-top: 10px solid white;
+    height: 2px;
+    max-width: 100%;
+    border-radius: 0%;
+}
+
+.descri{
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 1.5rem; 
+}
+#los_simpson{
+    margin-top: 7%;
+}
+.vid{
+    height: 53vh;
+    width: 90vh;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: 5%;
+}
+.pie{
+    background-repeat: no-repeat;
+    background-size: 100% 160%;
+    background-image: url(../images/springfild.jpg);
+    border: 5px solid #1c1b1b;
+    
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+   
+    
+ 
+  
+}
+.itf2{
+    
+    display: flex;
+    justify-content: center ;
+
+    height: 160%;
+    display: flex;
+    align-items: center;
+}
+.itf1{
+    width: 70; 
+    height: 70;
+    display: flex;
+    justify-content: end ;
+    
+    height: 160%;
+    display: flex;
+    align-items: center;
+}
+.itf3{
+    display: flex;
+    justify-content: start ;
+    
+    height: 160%;
+    display: flex;
+    align-items: center;
+}
+.butonn{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.btnf{
+    background-color:  #F8C947;
+    color: #1c1b1b;
+    width: 50%;
+    border: solid white;
+}
+.red{
+
+}
+
+.home{
+    position: relative;
+    animation: home 2s 
+}
+.mar{
+    position: relative;
+    animation: marge 2s 
+}
+.nino{
+    position: relative;
+    animation: nino 2s;
+}
+.fami{
+    position: relative;
+    animation: fami 2s;
+}
+.yo{
+    display: flex;
+    justify-content: center;
+    background-color: #1c1b1b;
+}
+.git{
+    font-size: 3rem;
+    color: white;
+    font-family: simpson-font;
+}
+@keyframes home{
+   
+    0%{top: 0px; left: -100%;}
+    100%{top: 0px; left: 0%;}
+   
+  
+} 
+@keyframes nino{
+   
+    0%{top: 0px; left: -100%;}
+    100%{top: 0px; left: 0%;}
+}
+@keyframes marge{
+   
+    0%{top: 0px; left: 150%;}
+    100%{top: 0px; left: 0%;}
+}
+@keyframes fami{
+   
+    0%{top: 0px; left: 120%;}
+    100%{top: 0px; left: 0%;}
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+
+
+@media screen and (min-width: 400px) and (max-width:768px) {
+    .red{
+    
+        height: 40px;
+        width: 40px;
+        
+    }
+    .itf1{
+        display: flex;
+        justify-content: center;
+    }
+    .itf2{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .itf3{
+        display: flex;
+        justify-content: center;
+        margin-left: 5%;
+    }
+    .text{
+        font-size: 5rem;
+    }
+    .titu{
+        font-size: 4rem;
+    }
+    .des{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (min-width: 769px) and (max-width:991px) {
+    .video{
+        height: 240px;
+        width: 320px;
+    }
 }

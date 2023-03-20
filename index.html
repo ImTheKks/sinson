@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Css/style.css">
   </head>
   <body>
-    <div class="ola">
+    <div class="ola" id="inicio">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid menu">
               <img src="images/The_logo_simpsons_yellow.png" alt="" width="80px" height="50px">
@@ -30,13 +30,12 @@
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="#homero">Homero</a></li>
                       <li><a class="dropdown-item" href="#marge">Marge</a></li>
+                      <li><a class="dropdown-item" href="#niños">Bart, Lisa y Magguie</a></li>
                       <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Bart y Lisa </a></li>
+                      <li><a class="dropdown-item" href="#los_simpson">Familia</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
+                  
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -73,53 +72,148 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          
     </div>
+    
     <div class="conte">
       <div class="container">
           <div class="row">
               <div class="col-xs-12 col-md-12 col-lg-12 title">
-                  <h1 class="col-xs-12 col-md-12 col-lg-12 text">¿QUIENES SON?</h1>
+                  <h1 class="col-xs-12 col-md-12 col-lg-12 text">QUIENES SON</h1>
               </div>
           </div>
+          
           <div class="row" id="homero">
-              <div class="col-xs-12 col-md-12 col-xl-6 ima">
-                  <img src="images/homer.png" alt="" height="96%" width="96%">
+              <div class="col-xs-12 col-md-6 col-xl-6 ima">
+                  <img src="images/homer.png" alt="" height="96%" width="106%" class="home">
               </div>
-              <div class="col-xs-12 col-md-12 col-xl-6 desc">
+              <div class="col-xs-12 col-md-6 col-xl-6 desc">
                   <h1 class="titu">Homero</h1>
                   <p class="des">Homer Jay Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie (Fue creado por el dibujante Matt Groening).</p>
                   <a href="https://es.wikipedia.org/wiki/Homer_Simpson" class="link">Ver más.</a>
                     <div class="conv">
                       <div class="calin">
-                        <iframe width="450" height="240" src="https://www.youtube.com/embed/btfMvd_ts7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                        <iframe class="video" width="450" height="240" src="https://www.youtube.com/embed/btfMvd_ts7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
                       </div>
                     </div>
                     <div class="buton">
-                      <a class="btn btn-primary" href="#marge" role="button">Siguiente</a>
+                      <a class="btn btn-primary" href="#inicio" role="button" style="margin: 1%;">Inicio</a>
+                      <a class="btn btn-primary" href="#marge" role="button" style="margin: 1%;">Siguiente</a>
                     </div>
               </div>
+              <div class="col-xs12- col-md-12 col-lg-12 linea"></div>
           </div>
+          
           <div class="row" id="marge">
-            <div class="col-xs-12 col-md-12 col-xl-6 ima">
-              <h1 class="titu">Homero</h1>
-              <p class="des">Homer Jay Simpson. Es el padre de la familia protagonista y uno de los personajes centrales más importantes de la serie (Fue creado por el dibujante Matt Groening).</p>
-              <a href="https://es.wikipedia.org/wiki/Homer_Simpson" class="link">Ver más.</a>
+            <div class="col-xs-12 col-md-6 col-xl-6 desc">
+              <h1 class="titu">Marge</h1>
+              <p class="des">Marge Simpson es un personaje ficticio de la serie de dibujos animados Los Simpson. Es la esposa de Homer Simpson y madre de los tres hijos que ha tenido de este matrimonio</p>
+              <a href="https://es.wikipedia.org/wiki/Marge_Simpson" class="link">Ver más.</a>
                 <div class="conv">
                   <div class="calin">
-                    <iframe width="450" height="240" src="https://www.youtube.com/embed/btfMvd_ts7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                    <iframe class="video" width="450" height="240" src="https://www.youtube.com/embed/GH8S2cvzqTM?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                 </div>
                 <div class="buton">
-                  <a class="btn btn-primary" href="#marge" role="button">Siguiente</a>
-                  <a class="btn btn-primary" href="#homero" role="button">Anterior</a>
+                  <a class="btn btn-primary" href="#inicio" role="button" style="margin: 1%;">Inicio</a>
+
+                  <a class="btn btn-primary" href="#homero" role="button" style="margin: 1%;">Anterior</a>
+
+                  <a class="btn btn-primary" href="#niños" role="button" style="margin: 1%;">Siguiente</a>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-12 col-xl-6 desc">
-                <img src="images/marge.png" alt="" height="96%" width="96%">
+            <div class="col-xs-12 col-md-6 col-xl-6 ima">
+                <img src="images/marge.png" alt="" height="96%" width="106%" class="mar">
                 
             </div>
-        </div>
+            <div class="col-xs12- col-md-12 col-lg-12 linea"></div>
+          </div>
+
+          <div class="row" id="niños">
+            <div class="col-xs-12 col-md-6 col-xl-6 ima">
+              <img src="images/niños.png" alt="" height="97%" width="106%" class="nino">
+            </div>
+            <div class="col-xs-12 col-md-6 col-xl-6 descri">
+              <h1 class="titu">Hijos Simpson</h1>
+              <p class="des">Marge y Homero tubieron 3 (tres) hijos, estos son: Bart (el mayor), Lissa (la intermeida) y Magguie (la menor). completando así el nucleo principal de la familia Simpson.</p>
+              <a href="https://simpsons.fandom.com/es/wiki/Familia_Simpson#:~:text=Homer%20y%20Marge%20tuvieron%20tres,Bart%2C%20Lisa%20y%20Maggie%20Simpson." class="link">Ver más.</a>
+                <div class="conv">
+                  <div class="calin">
+                    <iframe class="video" width="450" height="240" src="https://www.youtube.com/embed/bnA89IGSGFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                  </div>
+                </div>
+                <div class="buton">
+                  <a class="btn btn-primary" href="#inicio" role="button" style="margin: 1%;">Inicio</a>
+
+                  <a class="btn btn-primary" href="#marge" role="button" style="margin: 1%;">Anterior</a>
+
+                  <a class="btn btn-primary" href="#los_simpson" role="button" style="margin: 1%;">Siguiente</a>
+                </div>  
+            </div>
+            <div class="col-xs12- col-md-12 col-lg-12 linea"></div>
+          </div>
+
+          <div class="row" id="los_simpson">
+            <div class="col-xs-12 col-md-6 col-lg-12 tituf">
+              <h1 class="tifin">Los Simpson</h1>
+            </div>
+            <div class="col-xs-12 col-md-6 col-lg-12 imag">
+              <img src="images/fapng.png" alt="" height="39%" width="45%" class="fami">
+              <br>
+            </div>
+            <div class="col-xs-12 col-md-12 col-xl-12 descr">
+              <p class="des">Los Simpson son una familia normal estadounidense que vive en Springfield, una ciudad ficticia de la «América media».1 ​Homer, el padre, trabaja como inspector de seguridad en la planta de energía nuclear de Springfield en el sector 7G, posición que contrasta con su personalidad descuidada y bufonesca. Está casado con Marge, una estereotípica ama de casa y madre con la cual tiene tres hijos: Bart, un problemático chico de 10 años, Lisa, una precoz activista de 8 años, y Maggie, un bebé que no habla pero se comunica succionando un chupete. La familia posee un perro, Santa's Little Helper (llamado "El ayudante de Santa" en la versión hispanoamericana), y un gato, Snowball II. Ambas mascotas han protagonizado algún episodio.</p>
+              <div class="conv">
+                <div class="calin">  
+                  <iframe class="video" width="450" height="240" src="https://www.youtube.com/embed/CdPGa4QIKmo?start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+              </div>
+                <div class="buton">
+                <a class="btn btn-primary" href="#inicio" role="button" style="margin: 1%;">Inicio</a>
+
+                <a class="btn btn-primary" href="#niños" role="button" style="margin: 1%;">Anterior</a>
+
+              </div>  
+            </div>
+           
+          </div>
+          
+        
       </div>
+      <footer class="pie">
+        <div class="row">
+          
+            <div class="redes">
+              <div class="col-xs-4 col-md-4 col-lg-4 itf1">
+                <a href="https://www.instagram.com/thesimpsons/?hl=es"><img src="images/ins.png" alt="" width="70" height="70" class="red"></a>
+              </div> 
+              <div class="col-xs-4 col-md-4 col-lg-4 itf2">
+                <a href="https://twitter.com/rtsimpsons?lang=es"><img src="images/twi.png" alt="" width="70" height="70" class="red"></a>
+              </div>  
+              <div class="col-xs-4 col-md-4 col-lg-4 itf3">
+                <a href="https://www.facebook.com/LosSimpson/?locale=es_LA"><img src="images/face.png" alt="" width="70" height="70" class="red"></a>
+              </div>
+            </div>
+           
+
+            <div class="butonn">
+              <a class="btn btn-primary btnf" href="#inicio" role="button" style="margin: 5%;">Inicio</a>
+              
+            </div>
+            <div class="col-xs-12 col-md-12 col-lg-12 audio">
+              <audio controls autoplay>
+                <source src="sounds/sinsoon_mezcla.mp3"> 
+              </audio>
+            </div>
+            
+            <div class="col-xs-12 col-md-12 col-lg-12 yo">
+              <a href="https://github.com/ImTheKks/sinson" class="git">GitHub</a>
+            </div>
+            
+          
+        </div>
+
+      </footer>
     </div>
 
 
