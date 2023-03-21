@@ -9,9 +9,12 @@ body{
 .ola{
     background-color: #F8C947;
 }
+#nav{
+    background-color: #1c1b1b;
+}
 .container{
     
-    margin-top: 5%;
+    margin-top: 1%;
 }
 @font-face {
     font-family: simpson-font;
@@ -25,7 +28,7 @@ body{
     font-family: simpson-font;
     font-size: 7rem;
     color: white;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 3px #1c1b1b;
 
 }
 .ima{
@@ -42,7 +45,7 @@ justify-content: center;
     text-align: center;
     font-size: 5rem;
     color: white;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 3px #1c1b1b;
     font-family: simpson-font;
 }
 .link{
@@ -76,7 +79,7 @@ justify-content: center;
 }
 .btn-primary{
     background-color: white;
-    color: black;
+    color: #1c1b1b;
    
 }
 
@@ -96,7 +99,7 @@ justify-content: center;
     text-align: center;
     font-size: 7rem;
     color: white;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 3px #1c1b1b;
     font-family: simpson-font;
     margin-bottom: 2%;
 }
